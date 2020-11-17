@@ -6,7 +6,7 @@ OGDF_INCLUDE_DIR = $(INCLUDE_DIR)/home/ubuntu/ogdf/include
 OGDF_LIB_DIR = $(LIB_DIR)/home/ubuntu/ogdf
 GUROBI_LIB_DIR = /home/ubuntu/gurobi910/linux64/lib #Typical installation directory for Gurobi
 CC = g++ -g -std=c++0x
-LIBS = ../include/ogdf -lOGDF -lCOIN
+LIBS = ../include/home/ubuntu/ogdf -lOGDF -lCOIN
 INCLUDE = -I$(INCLUDE_DIR) -I$(OGDF_INCLUDE_DIR)
 OBJECTS := $(patsubst $(SRC_DIR)/%.cpp,bin/%.o,$(wildcard $(SRC_DIR)/*.cpp))
 includes = $(wildcard $(INCLUDE_DIR)*.h)
