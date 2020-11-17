@@ -4,7 +4,7 @@
 #include <random>
 #include <iomanip>
 #include <sstream>
-#include </home/ubuntu/ogdf/ogdf/basic/Queue.h>
+#include <ogdf/basic/Queue.h>
 #include <ogdf/basic/Graph.h>
 #include <ogdf/fileformats/GraphIO.h>
 #include <ogdf/basic/simple_graph_alg.h>
