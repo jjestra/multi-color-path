@@ -2,7 +2,7 @@ SRC_DIR = .
 BIN_DIR = ./bin
 INCLUDE_DIR = ./include/
 LIB_DIR = ./lib/
-OGDF_INCLUDE_DIR = $(INCLUDE_DIR)/home/ubuntu/ogdf/include
+OGDF_INCLUDE_DIR = $(INCLUDE_DIR)/home/ubuntu/ogdf/include/ogdf/basic
 OGDF_LIB_DIR = $(LIB_DIR)/home/ubuntu/ogdf/include/ogdf/lib
 GUROBI_LIB_DIR = /home/ubuntu/gurobi810/linux64/lib #Typical installation directory for Gurobi
 CC = g++ -g -std=c++0x
