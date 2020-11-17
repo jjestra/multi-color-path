@@ -2,8 +2,8 @@ SRC_DIR = .
 BIN_DIR = ./bin
 INCLUDE_DIR = ./include/
 LIB_DIR = ./lib/
-OGDF_INCLUDE_DIR = $(INCLUDE_DIR)/ogdf/include
-OGDF_LIB_DIR = $(LIB_DIR)/ogdf
+OGDF_INCLUDE_DIR = $(INCLUDE_DIR)/home/ubuntu/ogdf/include
+OGDF_LIB_DIR = $(LIB_DIR)/home/ubuntu/ogdf
 GUROBI_LIB_DIR = /home/ubuntu/gurobi910/linux64/lib #Typical installation directory for Gurobi
 CC = g++ -g -std=c++0x
 LIBS = ../include/ogdf -lOGDF -lCOIN
