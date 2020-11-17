@@ -1,6 +1,6 @@
 SRC_DIR = .
 BIN_DIR = ./bin
-INCLUDE_DIR = ./include/
+INCLUDE_DIR = ./include
 LIB_DIR = ./lib/
 OGDF_INCLUDE_DIR = $(INCLUDE_DIR)/ogdf/include
 OGDF_LIB_DIR = $(LIB_DIR)/ogdf
