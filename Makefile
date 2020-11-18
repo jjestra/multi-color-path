@@ -2,7 +2,7 @@ SRC_DIR = .
 BIN_DIR = ./bin
 INCLUDE_DIR = ./include/
 LIB_DIR = ./lib/
-OGDF_INCLUDE_DIR = $(INCLUDE_DIR)/ogdf/include # DR redirect symbolic link to OGDF  ln -s  /home/diegolog/OGDF/include ./includo/
+OGDF_INCLUDE_DIR = $(INCLUDE_DIR)/ogdf/includo # DR redirect symbolic link to OGDF  ln -s  /home/diegolog/OGDF/include ./includo/
 OGDF_LIB_DIR = /home/ubuntu/ogdf #DR redirect to  OGDF  
 GUROBI_LIB_DIR = /home/ubuntu/gurobi910/linux64/lib #DR update version # # Typical installation directory for Gurobi
 CC = g++ -g -std=c++0x
